@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Campus Dashboard</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="" id="form">
+                <h1>Student Login</h1>
+                <span>Enter the Username and Password</span>
+                <input type="text" id="name" placeholder="Name">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit" id="1">Login</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="" id="form2">
+                <h1>Teacher Login</h1>
+                <span>Enter the Username and Password</span>
+                <input type="text" id="name2" placeholder="Name">
+                <input type="password" id="password2" placeholder="Password">
+                <button type="submit" id="2">Login</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Student </h1>
+                    <p>press the button to swipe Teachers logins</p>
+                    <button class="hidden" id="login">Touch Me </button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Teacher</h1>
+                    <p>press the button to swipe Students logins</p>
+                    <button class="hidden" id="register">Touch Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>

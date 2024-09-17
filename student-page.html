@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo" title="college">
+            <!-- <img src="#" alt=""> -->
+            <h2>K<span class="danger">M</span>S| Dashboard</h2>
+        </div>
+        <div class="navbar">
+            <a href="index.html" class="active">
+                <span class="material-icons-sharp">home</span>
+                <h3>Profile</h3>
+            </a>
+            <a href="timetable.html" onclick="timeTableAll()">
+                <span class="material-icons-sharp">today</span>
+                <h3>Time Table</h3>
+            </a>
+            <a href="./course.html">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Courses</h3>
+            </a>
+            <a href="./attendance.html">
+                <span class="material-icons-sharp">assignment_ind</span>
+                <h3>Attendance</h3>
+            </a>
+            <a href="./index.html">
+                <span class="material-icons-sharp" onclick="">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+        <div id="profile-btn">
+            <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+
+    </header>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="top">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Hey, <b>Akash</b> </p>
+                        <small class="text-muted">Reg-110424CBR0</small>
+                    </div>
+                </div>
+                <div class="about">
+                    <h5>Course</h5>
+                    <p>FullStack Developement</p>
+                </div>
+                <div class="about">
+                    <h5>Reg</h5>
+                    <p>Reg-110424CBR0</p>
+                </div>
+                <div class="about">
+                    <h5>Batch</h5>
+                    <p>FSD-27</p>
+                </div>
+                <div class="about">
+                    <h5>Age</h5>
+                    <p>21</p>
+                </div>
+                <div class="about">
+                    <h5>Address</h5>
+                    <p>kamaraj Road, peelamedu, coimbatore-641004
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- main section -->
+
+        <main>
+
+            <div class="student-details">
+                <h1>Student Details</h1>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <strong>Admission Date</strong>
+                        <span>09-04-2024</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Roll Number</strong>
+                        <span>110424CBR0</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <strong>Mobile Number</strong>
+                        <span>1234567890</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Parent Mobile Number</strong>
+                        <span>75413698055</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Email</strong>
+                        <span>akash2002@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Date Of Birth</strong>
+                        <span>15-Feb-2002</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Gender</strong>
+                        <span>Male</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Course</strong>
+                        <span>Full Stack Developer-Residential Program</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Batch</strong>
+                        <span>FULL STACK DEVELOPER-RESIDENTIAL PROGRAM-APR-RE</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>SSLC Percentage</strong>
+                        <span>95%</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>HSC Percentage</strong>
+                        <span>98%</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>City</strong>
+                        <span>Coimbatore</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Present Address</strong>
+                        <span>kamaraj Road , peelamedu, coimbatore-641004</span></div>
+                    <div class="detail-item">
+                        <strong>Aadhar Number</strong>
+                        <span>-</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Student Undertaking Form</strong>
+                        <a href="#">form.pdf</a>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Photo</strong>
+                        <img src="./images/profile-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="right">
+            <div class="leaves">
+                <h2>Mentors !</h2>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-2.png" alt=""></div>
+                    <div class="info">
+                        <h3>John Daniel</h3>
+                        <small class="text-muted">FullStack Developement</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-3.png" alt=""></div>
+                    <div class="info">
+                        <h3>Samantha</h3>
+                        <small class="text-muted">Communication class</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-4.png" alt=""></div>
+                    <div class="info">
+                        <h3>Sneha</h3>
+                        <small class="text-muted">Aptitude class</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="timeTable.js"></script>
+    <script src="./student.js"></script>
+
+</body>
+
+</html>
